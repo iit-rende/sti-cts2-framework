@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.omg.org/spec/CTS2/1.1/cts2-core" xmlns:tns="http://www.omg.org/spec/CTS2/1.1/cts2-core"
+	elementFormDefault="qualified">
+
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/Updates"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/updates/Updates.xsd" />
+
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/CoreService"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/core/CoreService.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/AssociationServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/association/AssociationServices.xsd" />
+
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/CodeSystemServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/codesystem/CodeSystemServices.xsd" />
+
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/CodeSystemVersionServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/codesystemversion/CodeSystemVersionServices.xsd" />
+	
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/EntityDescriptionServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/entity/EntityDescriptionServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/MapServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/map/MapServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/MapVersionServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/mapversion/MapVersionServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/MapEntryServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/mapversion/MapEntryServices.xsd" />
+
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/ConceptDomainServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/conceptdomain/ConceptDomainServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/ConceptDomainBindingServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/conceptdomainbinding/ConceptDomainBindingServices.xsd" />
+	
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/ValueSetServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/valueset/ValueSetServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/ValueSetDefinitionServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/valuesetdefinition/ValueSetDefinitionServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/StatementServices"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/statement/StatementServices.xsd" />
+		
+	<xs:import namespace="http://www.omg.org/spec/CTS2/1.1/Exceptions"
+		schemaLocation="https://www.omg.org/spec/CTS2/130601/core/Exceptions.xsd" />
+	
+</schema>
