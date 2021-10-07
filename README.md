@@ -2,7 +2,7 @@
 
 
 
-# Sistema Terminologico Integrato (CTS2 Framework) 
+# Servizio Terminologico Integrato (CTS2 Framework) 
 
 ### Nome del modulo: cts2-framework-1.2.0.FINAL
 
@@ -37,7 +37,7 @@ Per l'installazione degli applicativi si demanda alla documentazione ufficiale
 
 - SO AlmaLinuxOS [https://almalinux.org/it/]
 
-- JDK 1.7 [https://www.oracle.com/it/java/technologies/javase/javase7-archive-downloads.html]
+- JDK 1.8 [https://www.oracle.com/it/java/technologies/javase/javase8-archive-downloads.html]
 
 - liferay-portal-6.2-ce-ga6 [https://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.2.5%20GA6/]
 
@@ -47,8 +47,8 @@ Per l'installazione degli applicativi si demanda alla documentazione ufficiale
 
 ## Installazione 
 
-Per procedere alla corretta installazione dei moduli del presente repository è necessario prima scaricare configurare e deployare i moduli dei reposotory [liferay-portal-6.2-ce-ga6]
-Per l'installazione degli applicativi [AlmaLinuxOS, JDK 1.7, liferay-portal-6.2-ce-ga6] si rimanda alla documentazione ufficiale.
+Per procedere alla corretta installazione dei moduli del presente repository è necessario prima scaricare configurare e deployare i moduli dei repository[liferay-portal-6.2-ce-ga6]
+Per l'installazione degli applicativi [AlmaLinuxOS, JDK 1.8, liferay-portal-6.2-ce-ga6] si rimanda alla documentazione ufficiale.
 
 
 
@@ -75,7 +75,7 @@ una volta buildato i modulo bisognerà deployare la webapp generata sotto il tom
 
 
 
-![home](screenshot\home.png)
+![home](screenshot/home.png)
 
 
 
@@ -85,15 +85,15 @@ per accedere alla console di default l'account è [admin/admin]
 
 di seguito le istruzioni per modificare la password:
 
-- dopo aver fatto l'accesso alla cosnole entrare nel tab "Configuration"
+- dopo aver fatto l'accesso alla console entrare nel tab "Configuration"
 - selezionare "Apache Felix OSGi Management Console"
 - dalla finestra che viene mostrata impostare la username e la password e salvare 
 
 
 
-![](screenshot\cambio_pass_1.png)
+![](screenshot/cambio_pass_1.png)
 
-![](screenshot\cambio_pass_2.png)
+![](screenshot/cambio_pass_2.png)
 
 
 
