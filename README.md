@@ -12,8 +12,6 @@
 
 
 
-
-
 ### Descrizione
 
 CTS2 Framework è l'implementazione di uno standard per la gestione organizzata di un sistema terminologico 
@@ -36,28 +34,25 @@ Prima di procedere al download dei sorgenti per il corretto funzionamento occorr
 Per l'installazione degli applicativi si demanda alla documentazione ufficiale
 
 - SO AlmaLinuxOS [https://almalinux.org/it/]
-
 - JDK 1.8 [https://www.oracle.com/it/java/technologies/javase/javase8-archive-downloads.html]
-
+- Maven 3.6.3 [https://maven.apache.org/docs/3.6.3/release-notes.html] 
 - liferay-portal-6.2-ce-ga6 [https://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.2.5%20GA6/]
-
-  
 
 
 
 ## Installazione 
 
-Per procedere alla corretta installazione dei moduli del presente repository è necessario prima scaricare configurare e deployare i moduli dei repository[liferay-portal-6.2-ce-ga6]
+Per procedere alla corretta installazione dei moduli del presente repository è necessario prima scaricare configurare  Liferay [liferay-portal-6.2-ce-ga6]
 Per l'installazione degli applicativi [AlmaLinuxOS, JDK 1.8, liferay-portal-6.2-ce-ga6] si rimanda alla documentazione ufficiale.
 
 
 
 ## Build
 
-Per la build del modulo è necessario scaricare e installare - Maven 3.6.3 [https://maven.apache.org/docs/3.6.3/release-notes.html] o superiore
+Per la build del modulo è necessario scaricare e installare - Maven 3.6.3 o superiore
 
-A questo punto si considera un ambiente configurato e con liferay correttamente avviato. 
-Per la build i comandi da lanciare sono i seguenti (scaricare i sorgenti, entrare nella folder del progetto e lanciare il comando seguente per generale la build). La build è possibile lanciarla anche su uno solo dei sotto moduli (Portlet)
+A questo punto si considera un ambiente configurato e con Liferay correttamente avviato. 
+Per la build i comandi da lanciare sono i seguenti (scaricare i sorgenti, entrare nella folder del progetto e lanciare il comando seguente per generale la il pachetto da deployare). 
 
 ```sh
 git clone https://...
@@ -71,7 +66,7 @@ mvn clean install
 
 ## Deploy
 
-una volta buildato i modulo bisognerà deployare la webapp generata sotto il tomcat di Liferay (**...liferay/tomcat/webapp**) e se tutto è andato bene la console web del framework sarà disponibile all'indirizzo http://HOST/cts2framework/ 
+una volta buildato i modulo sarà necessario deployare la webapp generata sotto il tomcat di Liferay (**...liferay/tomcat/webapp**) e se tutto è andato bene la console web del framework sarà disponibile all'indirizzo http://HOST/cts2framework/ 
 
 
 
