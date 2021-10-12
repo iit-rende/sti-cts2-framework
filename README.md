@@ -55,8 +55,8 @@ A questo punto si considera un ambiente configurato e con Liferay correttamente 
 Per la build i comandi da lanciare sono i seguenti (scaricare i sorgenti, entrare nella folder del progetto e lanciare il comando seguente per generale la il pachetto da deployare). 
 
 ```sh
-git clone https://...
-cd cts2-framework-1.2.0.FINAL
+git clone https://github.com/iit-rende/sti-cts2-framework.git
+cd sti-cts2-framework
 mvn clean install
 ```
 
