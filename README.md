@@ -88,18 +88,9 @@ Di seguito le istruzioni per modificare la password:
 
 
 
-## Copyright ©
-
- [TODO]
-
-## Maintainer
-
- [TODO]
-
 
 ## License 
 
- [TODO]
 **http://www.apache.org/licenses/LICENSE-2.0**
 
 
